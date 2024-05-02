@@ -1,5 +1,5 @@
-c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\createExe\rls\pkgIndex.tcl
-c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\createExe\rls\RLEH.tcl
-c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\createExe\rls\RLFile.tcl
-c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\createExe\rls\RLSerial.tcl
-c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\createExe\rls\RLSound.tcl
+c:\MyDocuments\ate\AutoTesters\Tools\AT-ClaroPage2\createExe\rls\pkgIndex.tcl
+c:\MyDocuments\ate\AutoTesters\Tools\AT-ClaroPage2\createExe\rls\RLEH.tcl
+c:\MyDocuments\ate\AutoTesters\Tools\AT-ClaroPage2\createExe\rls\RLFile.tcl
+c:\MyDocuments\ate\AutoTesters\Tools\AT-ClaroPage2\createExe\rls\RLSerial.tcl
+c:\MyDocuments\ate\AutoTesters\Tools\AT-ClaroPage2\createExe\rls\RLSound.tcl
