@@ -1,0 +1,11 @@
+c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\software\\Page2.tcl 
+c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\software\\Gen_CarloPage2.tcl 
+c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\software\\Ds280e01_CarloPage2.tcl 
+c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\software\\Gui_CarloPage2.tcl 
+c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\software\\Main_CarloPage2.tcl 
+c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\software\\Lib_Put_Etx2i10G.tcl 
+c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\software\\Lib_DialogBox.tcl
+c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\software\\init.tcl
+c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\software\\question.gif
+c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\software\\error.gif
+c:\MyDocuments\ate\AutoTesters\Tools\AT-CarloPage2\software\\info.gif
