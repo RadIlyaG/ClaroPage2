@@ -34,8 +34,8 @@ proc ButRun {mode} {
   } else {
     if {$mode=="UpdatePage2"} {
       set clr #00d700
-      set txt "Product updated,"
-      Status "$txt $gaSet(DG)" $clr
+      set txt "Product updated successfully"
+      Status "$txt" $clr ; #  $gaSet(DG)
     }    
   }
   

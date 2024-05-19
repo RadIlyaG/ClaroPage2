@@ -470,6 +470,7 @@ proc WritePage2 {} {
   global gaGui buffer buff  gaSet
   set com $gaSet(comDut)
   puts "[MyTime] WritePage2"; update
+  Status "Page 2 updating"
   
 	if {[Send $com "\r" "\[boot" 1] != 0} {
 	  set gaSet(fail) "Failed to get Boot Menu" ; update
@@ -527,9 +528,11 @@ proc WritePage2 {} {
   set res "$var1 $var2"
   set resL [split $res " "]  
   
-  set l1 [lrange $resL 0 5]  
-  set DG "00"
-  set l2 [lrange $resL 7 end]  
+  set l1 [lrange $resL 0 4]  
+  ## Page 2 old: 1F 02 21 11 10 20 00000
+  ## Page 2 new: 1F 02 21 11 10 50 00000
+  set DG "50"
+  set l2 [lrange $resL 6 end]  
   set page2 [concat $l1 $DG $l2]      		
 	  		  
 	puts "page2:<$page2>"; update
@@ -539,7 +542,7 @@ proc WritePage2 {} {
 	set offSet 00   
   Status "Writing page 2"   	
 		
-  if 0 {
+  if 1 {
   if {[Send $com "c2 $device,02,$offSet,$page2,$crc\r" "data ?" 3] != 0} {
 	 set gaSet(fail) "Writing Error - Page 2"
     return -1
